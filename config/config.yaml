@@ -1,0 +1,33 @@
+scraping:
+  base_url: "https://www.hsx.vn"
+  delay: 2
+  max_retries: 3
+  user_agent: "Mozilla/5.0"
+
+mongodb:
+  host: "localhost"
+  port: 27017
+  database: "stock_analysis"
+  collections:
+    raw_data: "raw_stock_data"
+    processed_data: "processed_stock_data"
+
+sqlite:
+  path: "data/database/stock_recommendations.db"
+
+analysis:
+  time_window: 90  # days for historical analysis
+  min_trading_volume: 10000
+  technical_indicators:
+    - "RSI"
+    - "MACD"
+    - "SMA"
+    - "EMA"
+  recommendation:
+    top_n: 10
+    min_score: 0.7
+
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: "logs/stock_analysis.log"
