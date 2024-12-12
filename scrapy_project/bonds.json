@@ -1,0 +1,16 @@
+[
+{"id": 483, "bond_ticker": "HCMA0307", "issuer": "", "listed_volume": "28000000", "price": "10000000 ₫", "rate": "9,00", "maturity": "15,00", "listing_date": "19/12/2007"},
+{"id": 1071, "bond_ticker": "KBC12006", "issuer": "Tổng Công ty Phát triển Đô Thị Kinh Bắc – Công ty Cổ phần", "listed_volume": "400000000", "price": "10000000 ₫", "rate": "11,00", "maturity": "0,00", "listing_date": "07/10/2020"},
+{"id": 848, "bond_ticker": "MSN11906", "issuer": "Công ty Cổ phần Tập đoàn Masan", "listed_volume": "1500000000", "price": "10000000 ₫", "rate": "10,00", "maturity": "3,00", "listing_date": "10/12/2019"},
+{"id": 939, "bond_ticker": "MSN12001", "issuer": "Công ty Cổ phần Tập đoàn Masan", "listed_volume": "2000000000", "price": "10000000 ₫", "rate": "9,30", "maturity": "3,00", "listing_date": "08/05/2020"},
+{"id": 980, "bond_ticker": "MSN12002", "issuer": "Công ty Cổ phần Tập đoàn Masan", "listed_volume": "3000000000", "price": "10000000 ₫", "rate": "93,00", "maturity": "3,00", "listing_date": "17/06/2020"},
+{"id": 1039, "bond_ticker": "MSN12003", "issuer": "Công ty Cổ phần Tập đoàn Masan", "listed_volume": "3000000000", "price": "10000000 ₫", "rate": "10,00", "maturity": "3,00", "listing_date": "13/08/2020"},
+{"id": 1184, "bond_ticker": "MSN12005", "issuer": "Công ty Cổ phần Tập đoàn Masan", "listed_volume": "2000000000", "price": "10000000 ₫", "rate": "9,30", "maturity": "3,00", "listing_date": "30/12/2020"},
+{"id": 759, "bond_ticker": "NPM11805", "issuer": "Công ty TNHH Khai thác Chế biến Khoáng sản Núi Pháo", "listed_volume": "500000000", "price": "10000000 ₫", "rate": "10,00", "maturity": "5,00", "listing_date": "18/12/2018"},
+{"id": 862, "bond_ticker": "NPM11907", "issuer": "Công ty TNHH Khai thác Chế biến Khoáng sản Núi Pháo", "listed_volume": "210000000", "price": "10000000 ₫", "rate": "10,00", "maturity": "3,00", "listing_date": "18/12/2019"},
+{"id": 987, "bond_ticker": "NPM11909", "issuer": "Công ty TNHH Khai thác Chế biến Khoáng sản Núi Pháo", "listed_volume": "300000000", "price": "10000000 ₫", "rate": "10,00", "maturity": "3,00", "listing_date": "22/07/2020"},
+{"id": 988, "bond_ticker": "NPM11910", "issuer": "Công ty TNHH Khai thác Chế biến Khoáng sản Núi Pháo", "listed_volume": "200000000", "price": "10000000 ₫", "rate": "10,00", "maturity": "3,00", "listing_date": "22/07/2020"},
+{"id": 991, "bond_ticker": "NPM11911", "issuer": "Công ty TNHH Khai thác Chế biến Khoáng sản Núi Pháo", "listed_volume": "500000000", "price": "10000000 ₫", "rate": "10,20", "maturity": "5,00", "listing_date": "22/07/2020"},
+{"id": 1050, "bond_ticker": "VJC11912", "issuer": "Công ty Cổ phần Hàng không VietJet", "listed_volume": "600000000", "price": "10000000 ₫", "rate": "9,00", "maturity": "3,00", "listing_date": "02/11/2020"},
+{"id": 1070, "bond_ticker": "VRE12007", "issuer": "Công ty Cổ phần Vincom Retail", "listed_volume": "2000000000", "price": "10000000 ₫", "rate": "10,00", "maturity": "5,00", "listing_date": "02/10/2020"}
+]

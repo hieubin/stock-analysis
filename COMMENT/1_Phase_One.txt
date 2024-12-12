@@ -1,0 +1,15 @@
+2024/11/01 -> 2024/12/01
+
+Internship grading:
+
+Interns are lazy and do too sloppy!
+(although he has been instructed on:
+    - how to inspect the source website
+    - how to search for API that returns data
+    - how to convert to base request using python language
+    - how to complete code in "Scrapy way" and extract data using ChatGPT)
+
+The errors he encountered:
+    1. use wrong API in code file
+    2. put wrong file in spider project (should have recreated scrapy project)
+    3. cannot extract necessary data
