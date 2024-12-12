@@ -13,3 +13,11 @@ The errors he encountered:
     1. use wrong API in code file
     2. put wrong file in spider project (should have recreated scrapy project)
     3. cannot extract necessary data
+
+The commenter corrected at commitID d0d4a9e48cbc66d785f56cd2890a2e36cc09b857
+
+Next development direction:
+
+- put the list of assets on hsx that have been retrieved into the database (mongodb or postgre)
+- based on the list just pushed into the database, get all the price history of the assets and push it into the database.
+- use the price history to write a recommended system to choose the top 5 stocks by year. and predict the 5 best stocks to invest in the next year or the next 3, 5 years.
