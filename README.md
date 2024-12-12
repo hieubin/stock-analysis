@@ -102,8 +102,8 @@ python -m pip install --upgrade pip
 ### Setup
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/stock-analysis-system.git
-cd stock-analysis-system
+git clone https://github.com/hieubin/stock-analysis.git
+cd stock-analysis
 ```
 
 2. Create and activate virtual environment:
@@ -232,7 +232,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 - Contributors and maintainers of the open-source libraries used in this project
 
 ## Contact
-Project Link: [https://github.com/yourusername/stock-analysis-system](https://github.com/yourusername/stock-analysis-system)
+Project Link: [https://github.com/hieubin/stock-analysis](https://github.com/hieubin/stock-analysis)
 
 ## Disclaimer
 This software is for educational and research purposes only. Do not use it as financial advice. Always do your own research before making investment decisions.
