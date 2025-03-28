@@ -1,0 +1,1 @@
+cd /home/hieu/Documents/stock-analysis/scrapy_project && /home/hieu/.local/share/virtualenvs/test-O1P22l7n/bin/scrapy crawl stock_list

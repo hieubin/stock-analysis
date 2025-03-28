@@ -1,12 +1,34 @@
-# Define here the models for your scraped items
-#
-# See documentation in:
-# https://docs.scrapy.org/en/latest/topics/items.html
-
 import scrapy
 
+class StockItem(scrapy.Item):
+    id = scrapy.Field()
+    ticker = scrapy.Field()
+    isin = scrapy.Field()
+    figi = scrapy.Field()
+    company_name = scrapy.Field()
+    registration_volume = scrapy.Field()
+    float_volume = scrapy.Field()
+    listing_date = scrapy.Field()
 
-class ScrapyProjectItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+class ETFItem(scrapy.Item):
+    id = scrapy.Field()
+    index = scrapy.Field()
+    index_name = scrapy.Field()
+    code = scrapy.Field()
+    isin = scrapy.Field()
+    figi = scrapy.Field()
+    fund_name = scrapy.Field()
+    nav = scrapy.Field()
+    shares = scrapy.Field()
+    listing_date = scrapy.Field()
+
+class WarrantItem(scrapy.Item):
+    id = scrapy.Field()
+    code = scrapy.Field()
+    type = scrapy.Field()
+    name = scrapy.Field()
+    volume = scrapy.Field()
+    isin = scrapy.Field()
+    issuer = scrapy.Field()
+    issuer_name = scrapy.Field()
+    maturity = scrapy.Field()

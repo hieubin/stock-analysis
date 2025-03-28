@@ -1,6 +1,7 @@
 import scrapy
 import json
 from urllib.parse import urlencode
+from scrapy_project.items import StockItem
 
 class StockSpider(scrapy.Spider):
     name = "stock_list"
@@ -42,16 +43,16 @@ class StockSpider(scrapy.Spider):
     def parse(self, response):
         data = json.loads(response.body)
         for item in data['rows']:
-            yield {
-                'id': item['id'],  # Extracting the ID
-                'ticker': item['cell'][1],  # Ticker from the cell array
-                'isin': item['cell'][2],     # ISIN from the cell array
-                'figi': item['cell'][3],     # FIGI from the cell array
-                'company_name': item['cell'][4],  # Company name from the cell array
-                'registration_volume': item['cell'][5].replace('.', '').replace(',', ''),  # Clean volume
-                'float_volume': item['cell'][6].replace('.', '').replace(',', ''),  # Clean float volume
-                'listing_date': item['cell'][7],  # Listing date from the cell array
-            }
+            stock_item = StockItem()
+            stock_item['id'] = item['id']
+            stock_item['ticker'] = item['cell'][1]
+            stock_item['isin'] = item['cell'][2]
+            stock_item['figi'] = item['cell'][3]
+            stock_item['company_name'] = item['cell'][4]
+            stock_item['registration_volume'] = item['cell'][5].replace('.', '').replace(',', '')
+            stock_item['float_volume'] = item['cell'][6].replace('.', '').replace(',', '')
+            stock_item['listing_date'] = item['cell'][7]
+            yield stock_item
 
         # Get the next page
         next_page = data['page'] + 1
